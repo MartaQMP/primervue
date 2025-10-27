@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Menu</a>
+                <p class="navbar-brand">Menu</p>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,6 +25,12 @@
                         </li>
                         <li class="nav-item">
                             <router-link to="/parimpar" class="nav-link">Par Impar</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/propiedadconmutada" class="nav-link">Propiedad Conmutada</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/metodosfilters" class="nav-link">Metodos Filters</router-link>
                         </li>
                     </ul>
                 </div>

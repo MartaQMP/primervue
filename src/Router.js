@@ -6,6 +6,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import CicloVida from "./components/CicloVida.vue";
 import DirectivasComponent from "./components/DirectivasComponent.vue";
 import ParImpar from "./components/ParImpar.vue";
+import PropiedadComutada from "./components/PropiedadComutada.vue";
+import MetodosFilters from "./components/MetodosFilters.vue";
 
 //UN ARRAY CON LAS RUTAS DE NAVEGACION
 const myRoutes = [
@@ -15,6 +17,8 @@ const myRoutes = [
     { path: "/ciclo", component: CicloVida },
     { path: "/directivas", component: DirectivasComponent },
     { path: "/parimpar", component: ParImpar },
+    { path: "/propiedadconmutada", component: PropiedadComutada },
+    { path: "/metodosfilters", component: MetodosFilters },
 ];
 
 //CREAMOS UNA VARIBALE PARA EL router INDICANDO EL TIPO DE NAVEGACION
